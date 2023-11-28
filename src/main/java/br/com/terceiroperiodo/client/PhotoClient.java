@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(name = "photo-consumer", url = "https://jsonplaceholder.typicode.com/")
 public interface PhotoClient {
 
+    /* Procurar foto por id */
     @GetMapping("/photos/{id}")
     Object getPhotoById(@PathVariable Long id);
 

@@ -12,7 +12,7 @@ public class PhotoConsumerController {
 
     @Autowired
     PhotoConsumerService messageConsumerService;
-
+    /* Controller foto */
     @GetMapping(path = "/{id}")
     public ResponseEntity<?> buscarPhotoById(@PathVariable Long id){
         return messageConsumerService.buscarPhotoPorId(id);

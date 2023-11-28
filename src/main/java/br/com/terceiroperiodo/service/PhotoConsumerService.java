@@ -13,7 +13,7 @@ public class PhotoConsumerService {
 
     @Autowired
     PhotoClient photoClient;
-
+    /* Buscar foto */
     public ResponseEntity<?> buscarPhotoPorId(Long id){
         try {
             log.info("buscarPhotoPorId() - photoId - <{}>", id.toString());
