@@ -17,6 +17,7 @@
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.8</spring-cloud.version>
 	</properties>
+	<!-- Spring Cloud OpenFeign -->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
@@ -36,6 +37,7 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+		<!-- Banco -->
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
